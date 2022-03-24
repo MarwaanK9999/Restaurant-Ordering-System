@@ -1,0 +1,2 @@
+# Restaurant-Ordering-System
+During my time at CapaCiTi, as a group, some of us did a Restaurant Ordering System which would allow customers to order food without having to make any contact with the staff. This was an idea that was brought up due to the Covid-19 Pandemic.  This website allows users to order food by displaying the menus of various restaurants, It also allows users to view events at the different restaurants. Users can also complete a survey page while waiting. Each user has to register on the website to receive login details.
