@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+    <link rel="stylesheet" href="Styling/AboutStyling/style.css"></head>
+      <body onload="fillArea()">
+        <div class="header">
+          <div id="Logo"><img src="Images/Logos/logo.png" width="60" height="60"/></div>
+          <div id="btn"><input type="button" value="Sign Out" id="submit" onclick="window.location.href='SignUp_PAGE.html';"></div>
+        </div>
+        
+
+          <div class="topnav">
+              <a href="ordertwo.html" class="navbuttons" style="float: left">Menu</a>
+              <a href="About.htm" class="active navbuttons" style="float: left">About</a>
+              <a href="#Contact" class="navbuttons" style="float: left">Contact</a>
+              <a href="eventpage.html" class="navbuttons" style="float: left">Events</a>
+              <a href="Survey.html" class="navbuttons" style="float: left">Survey</a>
+              <a href="Game/RickandMorty.html" class="navbuttons" style="float: left">Game</a>
+          </div>
+
+
+          <div class="row">
+                  <div class="card">
+                      <div id="About">
+                        <p class="double">ABOUT US</p>
+                          <h4>Highlights</h4>
+                          <div class="images">
+                          <div class="img-with-text">
+                            <img src="Images/AboutImages/flip.png" width="40" height="40" />
+                            <p>Casual</p>
+                          </div>
+
+                          <div class="img-with-text">
+                            <img src="Images/AboutImages/ppl.png" alt="group" width="40" height="40" />
+                            <p>Good for groups</p>
+                          </div>
+                          </div>
+
+                          <h4>Offerings</h4>
+                          <p>Food, Alcohol, Shisha</p>
+                          <h4>Amneties</h4>
+                          <p>Toilets</p>
+                          <h4>Atmosphere</h4>
+                          <p>Casual</p>
+                          <h4>Crowd</h4>
+                          <p>Groups</p>
+                      </div>
+
+                      <div class="card"
+                       <div id="Contact">
+                        <p class="double">HIT US UP</p>
+                      <form name="mainForm" onsubmit="return validateForm()" method="POST">
+                        <fieldset>
+                          <legend>Contact</legend>
+                          <h4>INFO AND CUSTOMER FEEDBACK</h4>
+                          <p>info@genciti.co.za</p>
+                          <h4>CAREERS</h4>
+                          <p>careers@genciti.co.za</p>
+                          <h4>FUNCTIONS AND EVENTS</h4>
+                          <p>events@genciti.co.za</p><br>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+                          <input type="text" id="cellno" name="cellnumber" placeholder="Cell no.." ><br><br>
+                          <input type="text" id="email1" name="email" placeholder="E-mail.."><br><br>
+                          <textarea id="comment" name="Comment" rows="10" cols="30"></textarea> <br>
+                          <input type="submit" value="Submit" id="submit" onclick="myClick()">
+                        </fieldset>
+                      </form>
+                      </div>
+                    </div>
+          </div>
+
+          <div class="footer">
+            <a href="xxxx">
+              <img src="Images/Social Media/twitter.png" style="height: 40px;"/>
+              <a href="xxxx">
+                <img src="Images/Social Media/insta.png" style="height: 40px;"/>
+                <a href="xxxx">
+                  <img src="Images/Social Media/fb.png" style="height: 40px;"/>
+                </a>
+              </div>
+              <script src="about.js"></script>
+      </body>
+</html>
